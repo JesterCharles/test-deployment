@@ -1,7 +1,6 @@
 {
     "dependencies": [
-        ".",
-        "./my_depraved_insanity"
+        "."
     ],
     "graphs": {
         "supervisor_agent": "./my_depraved_insanity/agent.py:agent"
