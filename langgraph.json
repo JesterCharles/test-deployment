@@ -1,10 +1,10 @@
 {
     "dependencies": [
         ".",
-        "./insanity"
+        "./my_depraved_insanity"
     ],
     "graphs": {
-        "supervisor_agent": "./insanity/agent.py:agent"
+        "supervisor_agent": "./my_depraved_insanity/agent.py:agent"
     },
     "env": "./.env"
 }
