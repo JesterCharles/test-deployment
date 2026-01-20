@@ -1,10 +1,10 @@
 {
     "dependencies": [
         ".",
-        "./src"
+        "./agent"
     ],
     "graphs": {
-        "supervisor_agent": "./src/agent.py:agent"
+        "supervisor_agent": "./agent/agent.py:agent"
     },
     "env": "./.env"
 }
