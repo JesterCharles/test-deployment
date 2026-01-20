@@ -13,8 +13,8 @@ Documentation: https://docs.langchain.com/langsmith/application-structure
 from dotenv import load_dotenv
 from langgraph.graph import StateGraph, START, END
 
-from src.utils.state import SupervisorState
-from src.utils.nodes import (
+from my_lib.utils.state import SupervisorState
+from my_lib.utils.nodes import (
     supervisor_node,
     calendar_node,
     email_node,
