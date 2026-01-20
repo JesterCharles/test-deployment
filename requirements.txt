@@ -1,0 +1,14 @@
+# Supervisor Agent Dependencies
+
+# Core LangGraph and LangChain
+langgraph>=0.2.0
+langchain>=0.3.0
+langchain-core>=0.3.0
+langchain-openai>=0.2.0
+
+# LangSmith for deployment and tracing
+langsmith>=0.1.0
+langgraph-sdk>=0.1.0
+
+# Environment and utilities
+python-dotenv>=1.0.0
