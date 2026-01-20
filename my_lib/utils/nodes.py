@@ -6,7 +6,7 @@ Contains all node functions used in the multi-agent workflow.
 
 from langchain.chat_models import init_chat_model
 from langchain_core.messages import AIMessage
-from supervisor_agent.utils.state import SupervisorState
+from my_lib.utils.state import SupervisorState
 
 
 # === Model Configuration ===

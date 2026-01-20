@@ -4,8 +4,8 @@ Utilities for the Supervisor Agent
 Contains state definitions and node functions.
 """
 
-from supervisor_agent.utils.state import SupervisorState
-from supervisor_agent.utils.nodes import (
+from my_lib.utils.state import SupervisorState
+from my_lib.utils.nodes import (
     supervisor_node,
     calendar_node,
     email_node,
